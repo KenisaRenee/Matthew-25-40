@@ -45,7 +45,7 @@ h2 {
 
 @media (max-width: 600px) {
     body {
-        background-position: top left -4rem;
+        background-position: top left -2rem;
         min-height: 98.3vh;
     }
     main{

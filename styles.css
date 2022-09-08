@@ -42,3 +42,30 @@ h2 {
     text-shadow: 3px 3px rgb(119, 52, 52);
     font-variant: small-caps;
 }
+
+@media (max-width: 600px) {
+    body {
+        background-position: top left -4rem;
+        min-height: 98.3vh;
+    }
+    main{
+        padding-top: 10rem;
+    }
+    h1, h2, p {
+        line-height: 3.2rem;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 0 4rem 1rem 4rem;
+    }
+    p {
+        margin: 0 4rem 0 4rem;
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2.3rem;
+        margin: 1rem 3rem 0 4rem;
+        text-shadow: 1px 1px rgb(119, 52, 52);
+    }
+}
